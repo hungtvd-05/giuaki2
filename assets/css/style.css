@@ -1,4 +1,6 @@
 body{
+    margin: 0;
+    padding: 0;
     width: 100vw;
     height: 100vh;
 }
@@ -113,10 +115,15 @@ a {
     color: #003D79;
 }
 
+.truemart img {
+    width: 50%;
+}
+
 .truemart a {
     background-color: #003D79;
     color: white;
     margin-right: 10px;
+    margin-bottom: 10px;
 }
 
 .truemart a:hover {
