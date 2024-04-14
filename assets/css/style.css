@@ -160,56 +160,6 @@ a {
     }
 }
 
-.truyen-thong .card {
-    width: 33rem;
-    border: none;
-    color: #003D79;
-}
-
-.truyen-thong .card p {
-    color: silver;
-}
-
-.truyen-thong .card img {
-    width: 25vw;
-}
-
-.truyen-thong .card-body {
-    text-align: left;
-}
-
-.truyen-thong .card:hover {
-    color: #A18C54;
-}
-
-.truyen-thong-2 {
-    margin-top: 15px;
-}
-
-.truyen-thong-2 span {
-    color: silver;
-}
-
-.truyen-thong-2 a {
-    color: #003D79;
-}
-
-.truyen-thong-2 a:hover {
-    color: #A18C54;
-}
-
-.truyen-thong .btn {
-    margin-top: 20px;
-    background-color: #003D79;
-    color: white;
-}
-
-.truyen-thong .btn:hover {
-    background-color: white;
-    border-color: #003D79;
-    color: #003D79;
-}
-
 .goc-sk {
     margin-top: 50px;
 }
@@ -255,4 +205,59 @@ footer .logo1 {
 
 footer {
     margin-top: 50px;
+}
+
+.truyen-thong-3 .card {
+    border: none;
+    width: 43vh;
+    color: #003D79;
+}
+
+.truyen-thong-3 .card-body {
+    text-align: left;
+}
+
+.truyen-thong-3 img {
+    /* width: 40vh; */
+    width: 97%;
+}
+
+.truyen-thong-3 .card p {
+    color: silver;
+}
+
+.truyen-thong-3 .card:hover {
+    color: #A18C54;
+}
+
+.truyen-thong-4 {
+    width: 57vh;
+    margin-top: 15px;
+}
+
+.truyen-thong-4 div {
+    margin-bottom: 25px;
+}
+
+.truyen-thong-4 div span {
+    color: silver;
+}
+
+.truyen-thong-4 div a {
+    color: #003D79;
+}
+
+.truyen-thong-4 div a:hover {
+    color: #A18C54;
+}
+
+.truyen-thong-4 .btn {
+    background-color: #003D79;
+    color: white;
+}
+
+.truyen-thong-4 .btn:hover {
+    background-color: white;
+    border-color: #003D79;
+    color: #003D79;
 }
