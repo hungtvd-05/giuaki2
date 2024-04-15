@@ -38,6 +38,17 @@ body{
     color: #A18C54 !important;
 }
 
+.navbar .search input {
+    height: 40px;
+    border-radius: 40px;
+}
+
+.navbar .btn {
+    height: 40px;
+    border-radius: 40px;
+    border-color: #003D79;
+}
+
 .carousel-indicator-button {
     border-radius: 50% !important;
     width: 10px !important;
@@ -280,3 +291,6 @@ footer {
     border-color: #003D79;
     color: #003D79;
 }
+
+
+
