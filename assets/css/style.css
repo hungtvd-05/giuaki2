@@ -113,33 +113,16 @@ a {
     margin: 50px;
 }
 
-.song-xanh {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 100px;
-}
-
-.song-xanh img {
-    width: 100%;
-}
-
 .truemart {
     margin-top: 50px;
 }
 
 .truemart .card {
     border: none;
-    width: 35rem;
-    margin: 0;
 }
 
 .truemart h2 {
     color: #003D79;
-}
-
-.truemart img {
-    width: 50%;
 }
 
 .truemart a {
@@ -153,20 +136,6 @@ a {
     color: #003D79;
     background-color: white;
     border-color: #003D79;
-}
-
-.goc-sk .card {
-    border: none;
-    color: #003D79;
-    margin: 10px;
-}
-
-.goc-sk h6 {
-    margin-top: 10px;
-}
-
-.goc-sk .card:hover {
-    color: #A18C54;
 }
 
 .text-inline h2 {
@@ -188,14 +157,6 @@ a {
         background: #fff; 
         padding: 0px 15px; 
     }
-}
-
-.goc-sk {
-    margin-top: 50px;
-}
-
-.truyen-thong {
-    margin-top: 50px;
 }
 
 footer a {
@@ -237,60 +198,66 @@ footer {
     margin-top: 50px;
 }
 
-.truyen-thong-3 .card {
+.truyen-thong-1 .card {
     border: none;
-    width: 43vh;
     color: #003D79;
 }
 
-.truyen-thong-3 .card-body {
+.truyen-thong-1 h5 {
     text-align: left;
 }
 
-.truyen-thong-3 img {
-    /* width: 40vh; */
-    width: 97%;
+.truyen-thong-1 p {
+    text-align: left;
+    color: #003D79;
 }
 
-.truyen-thong-3 .card p {
-    color: silver;
-}
-
-.truyen-thong-3 .card:hover {
+.truyen-thong-1 .card:hover {
     color: #A18C54;
 }
 
-.truyen-thong-4 {
-    width: 57vh;
+.truyen-thong-2 a {
+    color: #003D79;
+}
+
+.truyen-thong-2 span {
+    color: #003D79;
+}
+
+.truyen-thong-2 a:hover {
+    color: #A18C54;
+}
+
+
+.truyen-thong-2 .btn {
+    /* margin-top: 15px; */
+    background-color: #003D79;
+    color: #dfdfdf;
+}
+
+.truyen-thong-2 .btn:hover {
+    color: #003D79;
+    background-color: white;
+    border-color: #003D79;
+}
+
+
+.truyen-thong-2 div {
     margin-top: 15px;
 }
 
-.truyen-thong-4 div {
-    margin-bottom: 25px;
-}
-
-.truyen-thong-4 div span {
-    color: silver;
-}
-
-.truyen-thong-4 div a {
-    color: #003D79;
-}
-
-.truyen-thong-4 div a:hover {
+.gsk .card:hover {
     color: #A18C54;
 }
 
-.truyen-thong-4 .btn {
-    background-color: #003D79;
-    color: white;
-}
-
-.truyen-thong-4 .btn:hover {
-    background-color: white;
-    border-color: #003D79;
+.gsk .card {
+    /* padding: 0; */
+    border: none;
+    text-align: center;
     color: #003D79;
 }
+
+
 
 
 
