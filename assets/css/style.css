@@ -72,8 +72,13 @@ a {
     text-decoration: none;
 }
 
+.sp .card {
+    transition: .3s ease-in-out;
+}
+
 .sp a .card:hover {
     color: #A18C54;
+    transform: scale(1.2);
 }
 
 .sp .card-title {
@@ -88,7 +93,7 @@ a {
 .sp-noi-bat .card {
     align-items: center;
     border: none;
-    width: 14rem;
+    width: 14rem !important;
     color: #003D79;
     margin: 6px;
 }
@@ -112,6 +117,10 @@ a {
     color: #003D79;
     margin: 50px;
 }
+
+.song-xanh img {
+    border-radius: 15px;
+} 
 
 .truemart {
     margin-top: 50px;
@@ -138,7 +147,7 @@ a {
     border-color: #003D79;
 }
 
-.text-inline h2 {
+.text-inline {
     color: #003D79;
     position: relative;
     z-index: 1;
@@ -212,8 +221,45 @@ footer {
     color: #003D79;
 }
 
-.truyen-thong-1 .card:hover {
+.truyen-thong-1 .card:hover .card-title{
     color: #A18C54;
+}
+
+.truyen-thong-1 .card-img {
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.truyen-thong-1 img {
+    transition: .5s ease-in-out;
+}
+
+.truyen-thong-1 .card:hover img {
+    transform: scale(1.1);
+}
+
+.truyen-thong-1 .caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.truyen-thong-1 .card:hover .card-img .caption {
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .truyen-thong-2 a {
@@ -251,13 +297,23 @@ footer {
 }
 
 .gsk .card {
-    /* padding: 0; */
     border: none;
     text-align: center;
     color: #003D79;
 }
 
+.gsk img {
+    transition: .5s ease-in-out;
+}
 
+.gsk .card-img {
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.gsk .card:hover .card-img>img {
+    transform: scale(1.2);
+}
 
 
 
