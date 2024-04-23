@@ -3,7 +3,9 @@ body{
     padding: 0;
     width: 100vw;
     height: 100vh;
+    font-family: 'Noto Sans';
 }
+
 
 .logo {
     width: 80px;
@@ -73,12 +75,12 @@ a {
 }
 
 .sp .card {
-    transition: .3s ease-in-out;
+    transition: .2s ease-in-out;
 }
 
 .sp a .card:hover {
     color: #A18C54;
-    transform: scale(1.2);
+    transform: scale(1.3);
 }
 
 .sp .card-title {
@@ -104,12 +106,23 @@ a {
 }
 
 .sp-noi-bat img {
-    height: 200px;
+    width: 200px;
+    transition: .3s ease-in-out;
+}
+
+.sp-noi-bat .card-img {
+    height: 185px;
+    overflow: hidden;
+}
+
+.sp-noi-bat .card:hover img {
+    transform: scale(1.2);
 }
 
 .sp-noi-bat .card:hover {
     color: #A18C54;     
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: 10px;
 }
 
 .sp-noi-bat h1 {
@@ -121,6 +134,11 @@ a {
 .song-xanh img {
     border-radius: 15px;
 } 
+
+.song-xanh {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
 
 .truemart {
     margin-top: 50px;
@@ -276,7 +294,6 @@ footer {
 
 
 .truyen-thong-2 .btn {
-    /* margin-top: 15px; */
     background-color: #003D79;
     color: #dfdfdf;
 }
@@ -286,7 +303,6 @@ footer {
     background-color: white;
     border-color: #003D79;
 }
-
 
 .truyen-thong-2 div {
     margin-top: 15px;
@@ -315,5 +331,13 @@ footer {
     transform: scale(1.2);
 }
 
+.gsk {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.gsk .text-inline {
+    margin-bottom: 15px;
+}
 
 
